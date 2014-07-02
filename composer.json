@@ -1,0 +1,30 @@
+{
+    "name": "folklore/eloquent-localizable",
+    "description": "Laravel 4 package to add localization capabilities to Eloquent Models",
+    "keywords": ["laravel","locale","translation","eloquent","localization"],
+    "homepage": "http://github.com/Folkloreatelier/eloquent-localizable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Folklore",
+            "email": "info@atelierfolklore.ca",
+            "homepage": "http://atelierfolklore.ca"
+        },
+        {
+            "name": "David Mongeau-Petitpas",
+            "email": "dmp@atelierfolklore.ca",
+            "homepage": "http://mongo.ca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Folklore\\EloquentLocalizable": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
