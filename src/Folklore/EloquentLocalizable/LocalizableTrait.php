@@ -75,7 +75,7 @@ trait LocalizableTrait {
             $ids = array();
             foreach($locales as $data)
             {
-                $model = $this->locale()->where('locale',$data['locale'])->first();
+                $model = $this->locales()->where('locale',$data['locale'])->first();
                 if(!$model)
                 {
                     $model = new $localeModelClass();
