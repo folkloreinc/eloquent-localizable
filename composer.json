@@ -1,6 +1,6 @@
 {
     "name": "folklore/eloquent-localizable",
-    "description": "Laravel 4 package to add localization capabilities to Eloquent Models",
+    "description": "Laravel 4 and 5 package to add localization capabilities to Eloquent Models",
     "keywords": ["laravel","locale","translation","eloquent","localization","international"],
     "homepage": "http://github.com/Folkloreatelier/eloquent-localizable",
     "license": "MIT",
@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "illuminate/support": "~5.0"
     },
     "autoload": {
         "psr-0": {
