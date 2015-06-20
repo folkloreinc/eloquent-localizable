@@ -83,7 +83,6 @@ trait LocalizableTrait {
                 }
                 $model->locale = $locale;
                 $model->fill($data);
-                $model->save();
                 $this->locales()->save($model);
                 $ids[] = $model->id;
             }
